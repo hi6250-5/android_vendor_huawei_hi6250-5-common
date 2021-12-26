@@ -176,6 +176,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/liboeminfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboeminfo.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libomx_vxd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libomx_vxd.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libomx_vxe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libomx_vxe.so \
+    vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libperfhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfhub.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libperfhub_service.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfhub_service.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libpf_customize_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpf_customize_hisi.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libpf_rotate_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpf_rotate_hisi.so \
@@ -242,6 +243,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/liboeminfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liboeminfo.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libomx_vxd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libomx_vxd.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libomx_vxe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libomx_vxe.so \
+    vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libperfhub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfhub.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libperfhub_service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfhub_service.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libpf_customize_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpf_customize_hisi.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libpf_rotate_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpf_rotate_hisi.so \
