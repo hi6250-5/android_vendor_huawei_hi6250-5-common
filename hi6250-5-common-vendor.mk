@@ -170,6 +170,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/soundfx/libhuaweiprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libhuaweiprocessing.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libhw_display_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhw_display_test.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libhwlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwlog.so \
+    vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libhwuibp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwuibp.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libimonitor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimonitor.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libmax98925.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmax98925.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libnvme.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvme.so \
@@ -237,6 +238,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/soundfx/libhuaweiprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libhuaweiprocessing.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libhw_display_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhw_display_test.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libhwlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwlog.so \
+    vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libhwuibp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwuibp.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libimonitor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimonitor.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libmax98925.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmax98925.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libnvme.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvme.so \
