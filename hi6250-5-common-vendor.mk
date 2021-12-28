@@ -182,6 +182,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libpf_customize_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpf_customize_hisi.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libpf_rotate_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpf_rotate_hisi.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril.so \
+    vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libril_emui8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril_emui8.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libtas2560.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtas2560.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libteec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteec.so \
@@ -251,6 +252,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libpf_rotate_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpf_rotate_hisi.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libracoon2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libracoon2.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so \
+    vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libril_emui8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril_emui8.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libstorekeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstorekeybox.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libtas2560.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtas2560.so \
