@@ -190,6 +190,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libtfa9895.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtfa9895.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libxcollie.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxcollie.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/soundfx/liboffloadvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liboffloadvisualizer.so \
+    vendor/huawei/hi6250-5-common/proprietary/vendor/lib/vendor.huawei.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.radio@1.0.so \
+    vendor/huawei/hi6250-5-common/proprietary/vendor/lib/vendor.huawei.hardware.radio@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.radio@1.1.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/hw/audio.primary.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.hi6250.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/hw/camera.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.hi6250.so \
@@ -261,7 +263,9 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libteec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteec.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libtfa9895.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtfa9895.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libxcollie.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxcollie.so \
-    vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/soundfx/liboffloadvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/liboffloadvisualizer.so
+    vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/soundfx/liboffloadvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/liboffloadvisualizer.so \
+    vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/vendor.huawei.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.radio@1.0.so \
+    vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/vendor.huawei.hardware.radio@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.radio@1.1.so
 
 PRODUCT_PACKAGES += \
     native_packages
