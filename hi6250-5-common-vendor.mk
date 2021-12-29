@@ -158,6 +158,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libc_sec_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc_sec_hisi.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libc_sec_hisi_connectivity.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc_sec_hisi_connectivity.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libc_secshared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc_secshared.so \
+    vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libcamera_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_algo.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libcamera_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_metadata.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libchrlog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchrlog.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libconn_factory_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconn_factory_test.so \
@@ -221,6 +222,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libc_sec_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc_sec_hisi.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libc_sec_hisi_connectivity.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc_sec_hisi_connectivity.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libc_secshared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc_secshared.so \
+    vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libcamera_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_algo.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libcamera_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_metadata.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libchrlog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchrlog.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libconn_factory_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconn_factory_test.so \
