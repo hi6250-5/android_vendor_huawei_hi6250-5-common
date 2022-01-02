@@ -1,4 +1,4 @@
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021-2022 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -136,9 +136,7 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/hw/fingerprint.hw.ex.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fingerprint.hw.ex.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/hw/fm.bcm.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fm.bcm.hi6250.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/hw/fm.hisi.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/fm.hisi.hi6250.so \
-    vendor/huawei/hi6250-5-common/proprietary/vendor/lib/hw/gatekeeper.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.hi6250.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/hw/gralloc.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.hi6250.so \
-    vendor/huawei/hi6250-5-common/proprietary/vendor/lib/hw/keystore.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.hi6250.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/hw/memtrack.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.hi6250.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/hw/sensors.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.hi6250.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/hw/thermal.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.hi6250.so \
@@ -188,7 +186,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libtas2560.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtas2560.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libteec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteec.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libtfa9895.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtfa9895.so \
-    vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libxcollie.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxcollie.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/soundfx/liboffloadvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/liboffloadvisualizer.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/vendor.huawei.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.radio@1.0.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/vendor.huawei.hardware.radio@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.huawei.hardware.radio@1.1.so \
@@ -200,10 +197,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/hw/fingerprint.hw.ex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.hw.ex.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/hw/fm.bcm.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fm.bcm.hi6250.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/hw/fm.hisi.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fm.hisi.hi6250.so \
-    vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/hw/gatekeeper.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.hi6250.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/hw/gralloc.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.hi6250.so \
-    vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/hw/keystore.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.hi6250.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/hw/memtrack.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.hi6250.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/hw/sensors.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.hi6250.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/hw/thermal.hi6250.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.hi6250.so \
@@ -262,7 +257,6 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libtas2560.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtas2560.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libteec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteec.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libtfa9895.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtfa9895.so \
-    vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libxcollie.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxcollie.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/soundfx/liboffloadvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/liboffloadvisualizer.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/vendor.huawei.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.radio@1.0.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/vendor.huawei.hardware.radio@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.huawei.hardware.radio@1.1.so
