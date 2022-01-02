@@ -47,11 +47,11 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-5-common/proprietary/vendor/bin/goodix_3268_ta.sec:$(TARGET_COPY_OUT_VENDOR)/bin/goodix_3268_ta.sec \
     vendor/huawei/hi6250-5-common/proprietary/vendor/bin/goodix_3288_ta.sec:$(TARGET_COPY_OUT_VENDOR)/bin/goodix_3288_ta.sec \
     vendor/huawei/hi6250-5-common/proprietary/vendor/bin/gpsdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/gpsdaemon \
+    vendor/huawei/hi6250-5-common/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
     vendor/huawei/hi6250-5-common/proprietary/vendor/bin/iked:$(TARGET_COPY_OUT_VENDOR)/bin/iked \
     vendor/huawei/hi6250-5-common/proprietary/vendor/bin/oam_hisi:$(TARGET_COPY_OUT_VENDOR)/bin/oam_hisi \
     vendor/huawei/hi6250-5-common/proprietary/vendor/bin/octty:$(TARGET_COPY_OUT_VENDOR)/bin/octty \
     vendor/huawei/hi6250-5-common/proprietary/vendor/bin/perfhub:$(TARGET_COPY_OUT_VENDOR)/bin/perfhub \
-    vendor/huawei/hi6250-5-common/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
     vendor/huawei/hi6250-5-common/proprietary/vendor/bin/silead_6165_ta.sec:$(TARGET_COPY_OUT_VENDOR)/bin/silead_6165_ta.sec \
     vendor/huawei/hi6250-5-common/proprietary/vendor/bin/silead_61853_ta.sec:$(TARGET_COPY_OUT_VENDOR)/bin/silead_61853_ta.sec \
     vendor/huawei/hi6250-5-common/proprietary/vendor/bin/silead_6185_ta.sec:$(TARGET_COPY_OUT_VENDOR)/bin/silead_6185_ta.sec \
@@ -180,8 +180,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libperfhub_service.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfhub_service.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libpf_customize_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpf_customize_hisi.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libpf_rotate_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpf_rotate_hisi.so \
+    vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libril_emui5.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril_emui5.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril.so \
-    vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libril_emui8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril_emui8.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libtas2560.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtas2560.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib/libteec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteec.so \
@@ -250,8 +250,8 @@ PRODUCT_COPY_FILES += \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libpf_customize_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpf_customize_hisi.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libpf_rotate_hisi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpf_rotate_hisi.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libracoon2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libracoon2.so \
+    vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libril_emui5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril_emui5.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so \
-    vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libril_emui8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril_emui8.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libstorekeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstorekeybox.so \
     vendor/huawei/hi6250-5-common/proprietary/vendor/lib64/libtas2560.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtas2560.so \
